@@ -4,7 +4,7 @@
   "description": "Task Mananger for teams",
   "main": "app.js",
   "scripts": {
-    "postcss:three:watch": "postcss src/styles/style-three.css -d dist/styles/ --watch",
+    "postcss:watch": "postcss src/styles/style.css -d dist/styles/ --watch",
     "webpack:build": "webpack --mode=production",
     "webpack": "webpack --mode=development",
     "webpack:dev": "webpack --mode=development --watch"
